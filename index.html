@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<div lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Furn Shop</title>
+  </head>
+
+
+  <nav class="nav">
+    <div class="nav__center container">
+      <div class="nav__logo">
+        <h1>FURN SHOP</h1>
+      </div>
+      <ul class="nav__list">
+        <div class="cart__icon">
+          <h2>Cart</h2>
+          <span class="item__total"> 0</span>
+        </div>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="slidetwo.jpg" style="width:100%;">
+
+    </div>
+  </div>
+  <div class="mySlides fade">
+    <img src="slideone.jpg" style="width:100%;">
+
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<section class="products">
+  <div class="product__center"></div>
+</section>
+
+<section class="cart__overlay">
+  <div class="cart">
+    <span class="close__cart">
+      <svg>
+        <use xlink:href="./sprite.svg#icon-cross"></use>
+      </svg>
+    </span>
+
+    <h1>Your Cart</h1>
+    <div class="cart__centent">
+    </div>
+
+    <div class="cart__footer">
+      <h3>Total:P<span class="cart__total">0</span></h3>
+      <button class="clear__cart btn">Clear Cart</button>
+    </div>
+  </div>
+</section>
+
+<script src="app.js"></script>
+</body>
+
+</html>

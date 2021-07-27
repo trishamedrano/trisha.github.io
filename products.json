@@ -1,0 +1,29 @@
+{
+    "status": "success",
+    "items": [
+        {
+            "id": 1,
+            "title": "White Vase",
+            "price": 399,
+            "image": "1st.jfif"
+        },
+        {
+            "id": 2,
+            "title": "White Chair",
+            "price": 499,
+            "image": "2nd.webp"
+        },
+        {
+            "id": 3,
+            "title": "Black Vase",
+            "price": 299,
+            "image": "3rd.jfif"
+        },
+        {
+            "id": 11,
+            "title": "Chair",
+            "price": 599,
+            "image": "4th.jpg"
+        }
+    ]
+}
